@@ -1,0 +1,124 @@
+html {
+    overflow-y: scroll;
+}
+body{
+  background-color:#666666
+ }
+ 
+ /*---Start of Header */
+div#header{
+  background-color:white;
+  
+}
+
+div#header_contact{
+ }
+/*---Start of Navigation */
+div#home_menubar{
+  height:45px;
+  background-color:black;
+}
+
+ul#main_navigation li{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+ 
+
+}
+ul#main_navigation li a.main_navigation_link{
+  float:right;
+  text-decoration:none;
+  text-align:center;
+  margin:5px;
+  color:white;
+}
+a.main_navgation_link span{
+ 
+   padding-left:5px;
+
+}
+
+ul#main_navigation li a.active{
+  
+  background-color: blue;
+  color:black;
+}
+/*---end of Navigation */
+div.sub_navigation{
+  background-color: blue;
+  min-height:10px;
+  margin-top: -1px;
+}
+/*---end of Header */
+
+div#content{
+  background-color:white;
+}
+
+div#main_content{
+  padding:5px;
+}
+table.listing thead th, table.listing tbody td {
+    padding: 5px 10px;
+    border: 1px solid #CCCCCC;
+    border-width: 1px 1px;
+}
+
+table.listing tbody td {
+    font-size: 13px;
+}
+
+table.listing thead th.no-left-border, table.listing tbody td.no-left-border { border-left: 0; padding-left: 10px; }
+table.listing thead th.no-right-border, table.listing tbody td.no-right-border { border-right: 0; vertical-align:top; }
+
+
+table.listing thead th {
+    text-align: left;
+    background-color: #EEEEEE;
+    border-bottom: 2px solid #CCCCCC;
+}
+
+table.listing thead th.right, table.listing tbody td.right {
+    text-align: right;
+}
+
+table.listing tbody {
+    border-bottom: 2px solid #CCCCCC;
+}
+
+table.listing tbody tr:hover {
+    background-color: #eeeea0;
+}
+
+table.listing tfoot td {
+    border: none;
+    color: #666666;
+    font-size: 13px;
+}
+
+/* footer*/
+
+{
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+
+div.every_thing {
+   min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -30px; /* the bottom margin is the negative value of the footer's height */ 
+    background-color:white;
+}
+
+div.footer, div.push {
+    height: 30px; /* .push must be the same height as .footer */
+    
+}
+div.footer{
+  background-color:black;
+  color:white;
+}

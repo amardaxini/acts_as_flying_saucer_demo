@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>Accounts: <%= controller.action_name %></title>
+     <%= stylesheet_link_tag 'reset', 'grid', 'base', 'application' %>
+     <%= javascript_include_tag 'jquery', 'jquery-ui', 'jrails','application' %>
+     
+      <%= yield :head %>
+  </head>
+  <body>
+    <div class="container_16 every_thing">  
+      <div id ="header">
+       
+        <div id="header_contact" class="suffix_1" style="float:right"> 
+         
+        </div>
+            
+        <%= clearing_span %>
+        <div id="home_menubar">
+          <ul id="main_navigation">
+       
+              <li> <%= link_to "<span>Generate Pdf</span>", generate_path(:format=>:pdf),:class=>"main_navigation_link" %></li>
+
+          </ul>    
+         
+        </div>
+         
+      </div>  
+   
+      <%= clearing_span %>
+      <div id="content" >
+        <div id="main_content" class="grid_16">
+          <%= yield %>
+          <%= clearing_span -%>
+        </div>
+        <%= clearing_span -%>
+        <div class="push"></div>
+       </div>
+   
+    </div>  
+
+    <div class="footer container_16">
+    
+      <p style="padding-left:10px"> <a href="http://railstech.com">Flying Saucer Demo</a></p>
+    </div>
+ 
+  </body>
+</html>

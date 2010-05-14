@@ -1,0 +1,1633 @@
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-04-23 13:10:57) [GET]
+Rendering generate_pdf/index
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/generate_pdf]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-23 13:14:46) [GET]
+
+ActionController::RoutingError (No route matches "/generate_pdf/generate.pdf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:15:21) [GET]
+
+NameError (uninitialized constant Mime::PDF):
+  app/controllers/generate_pdf_controller.rb:5:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (50.6ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:15:58) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb6f87ff8>):
+  app/controllers/generate_pdf_controller.rb:5:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (51.3ms)
+Rendered rescues/_request_and_response (1.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:21:24) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb6e840d4>):
+  app/controllers/generate_pdf_controller.rb:5:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (49.7ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:21:27) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb6c4bdd0>):
+  app/controllers/generate_pdf_controller.rb:5:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (45.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:21:28) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb6b268ec>):
+  app/controllers/generate_pdf_controller.rb:5:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (120.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:21:59) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb6e88f1c>):
+  app/controllers/generate_pdf_controller.rb:5:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (49.8ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:23:36) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb6c50b8c>):
+  app/controllers/generate_pdf_controller.rb:5:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (50.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-23 13:23:40) [GET]
+
+ActionController::RoutingError (No route matches "/generate_pdf/generate.pdf.erb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:23:44) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb6b00b88>):
+  app/controllers/generate_pdf_controller.rb:5:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (53.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:24:00) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb6d7740c>):
+  app/controllers/generate_pdf_controller.rb:5:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (49.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate (for 127.0.0.1 at 2010-04-23 13:24:04) [GET]
+
+ActionView::MissingTemplate (Missing template generate_pdf/generate.erb in view path app/views):
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:25:53) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb6b8138c>):
+  app/controllers/generate_pdf_controller.rb:5:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (128.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:26:57) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb6f1c2a8>):
+  app/controllers/generate_pdf_controller.rb:5:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (50.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:26:59) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb6c97320>):
+  app/controllers/generate_pdf_controller.rb:5:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (47.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:27:00) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb6b6e46c>):
+  app/controllers/generate_pdf_controller.rb:5:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (123.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:27:01) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb6e56940>):
+  app/controllers/generate_pdf_controller.rb:5:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (49.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:27:03) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb6c54fd4>):
+  app/controllers/generate_pdf_controller.rb:5:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (47.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:28:31) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb6b40170>):
+  app/controllers/generate_pdf_controller.rb:5:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (123.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-04-23 13:28:34) [GET]
+Rendering generate_pdf/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/generate_pdf/]
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:28:38) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb6d3ba10>):
+  app/controllers/generate_pdf_controller.rb:5:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (49.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate (for 127.0.0.1 at 2010-04-23 13:28:50) [GET]
+
+ActionView::MissingTemplate (Missing template generate_pdf/generate.erb in view path app/views):
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate (for 127.0.0.1 at 2010-04-23 13:29:06) [GET]
+Rendering generate_pdf/generate
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/generate_pdf/generate]
+
+
+Processing GeneratePdfController#generate to html (for 127.0.0.1 at 2010-04-23 13:29:10) [GET]
+Rendering generate_pdf/generate
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.html]
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:29:15) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb6b1cc84>):
+  app/controllers/generate_pdf_controller.rb:5:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (51.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:30:22) [GET]
+
+***** Debugger requested, but was not available: Start server with --debugger to enable *****
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb6d291f8>):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (46.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:30:32) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb738be88>):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (144.9ms)
+Rendered rescues/_request_and_response (2.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:31:53) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb7304e88>):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (144.1ms)
+Rendered rescues/_request_and_response (2.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:32:02) [GET]
+
+NoMethodError (undefined method `render_pdf' for #<GeneratePdfController:0xb6cf0ac4>):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:3:in `generate'
+
+Rendered rescues/_trace (92.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:32:29) [GET]
+ - false - http://localhost:3001
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 4003ms (View: 2, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:32:55) [GET]
+ - false - http://localhost:3001
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 5229ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:36:21) [GET]
+ - false - http://localhost:3001
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 5421ms (View: 2, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 13:36:52) [GET]
+ - false - http://localhost:3001
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 3054ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to html (for 127.0.0.1 at 2010-04-23 14:03:38) [GET]
+Rendering generate_pdf/generate
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.html]
+
+
+Processing GeneratePdfController#generate to html (for 127.0.0.1 at 2010-04-23 14:03:39) [GET]
+Rendering generate_pdf/generate
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.html]
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 14:04:06) [GET]
+ - false - http://localhost:3001
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 3263ms (View: 2, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 16:10:51) [GET]
+ - false - http://localhost:3001
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2936ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-23 16:12:36) [GET]
+ - false - http://localhost:3001
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2887ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-04-24 12:16:53) [GET]
+Rendering generate_pdf/index
+Completed in 108ms (View: 105, DB: 0) | 200 OK [http://localhost/generate_pdf]
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 12:17:01) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 8735ms (View: 2, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 12:21:37) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2988ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 12:35:24) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2852ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-04-24 12:36:39) [GET]
+Rendering generate_pdf/index
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/generate_pdf]
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-04-24 12:36:45) [GET]
+Rendering generate_pdf/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf]
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-04-24 12:36:55) [GET]
+Rendering generate_pdf/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf]
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-04-24 12:37:35) [GET]
+Rendering generate_pdf/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf]
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-04-24 12:37:44) [GET]
+Rendering generate_pdf/index
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/generate_pdf]
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-04-24 12:38:00) [GET]
+Rendering generate_pdf/index
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/generate_pdf]
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 12:38:13) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2726ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 12:38:36) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2956ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 12:39:31) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2916ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 12:42:23) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2739ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-04-24 19:12:23) [GET]
+Rendering generate_pdf/index
+Completed in 128ms (View: 122, DB: 0) | 200 OK [http://localhost/generate_pdf]
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:12:32) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 229ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:12:41) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 145ms (View: 2, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:15:32) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+
+NoMethodError (undefined method `encrypt_pdf' for ActsAsFlyingSaucer::Xhtml2Pdf:Class):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:4:in `generate'
+
+Rendered rescues/_trace (131.3ms)
+Rendered rescues/_request_and_response (11.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:15:36) [GET]
+http://localhost:3000 - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+
+NoMethodError (undefined method `encrypt_pdf' for ActsAsFlyingSaucer::Xhtml2Pdf:Class):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:4:in `generate'
+
+Rendered rescues/_trace (59.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:17:35) [GET]
+http://localhost:3000 - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+
+NoMethodError (undefined method `encrypt_pdf' for ActsAsFlyingSaucer::Xhtml2Pdf:Class):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:4:in `generate'
+
+Rendered rescues/_trace (61.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:17:44) [GET]
+http://localhost:3000 - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+
+NoMethodError (undefined method `encrypt_pdf' for ActsAsFlyingSaucer::Xhtml2Pdf:Class):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:4:in `generate'
+
+Rendered rescues/_trace (151.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:17:58) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:4:in `generate'
+
+Rendered rescues/_trace (127.0ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:19:43) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 344ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:19:59) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 288ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:21:24) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 355ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:23:20) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 283ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:24:54) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 3659ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:26:59) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 4146ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:27:50) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 5063ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:34:37) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 5431ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:36:18) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 5836ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:42:39) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 138ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:43:27) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 4097ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:45:46) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 4202ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 19:58:44) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+
+ActionController::MissingFile (Cannot read file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdfa):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:4:in `generate'
+
+Rendered rescues/_trace (124.6ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 20:04:46) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+
+ActionController::MissingFile (Cannot read file pdfa.pdf):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:4:in `generate'
+
+Rendered rescues/_trace (140.2ms)
+Rendered rescues/_request_and_response (1.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 20:05:36) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 3562ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 20:21:05) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+
+NameError (undefined local variable or method `options' for ActsAsFlyingSaucer::Xhtml2Pdf:Class):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:4:in `generate'
+
+Rendered rescues/_trace (146.2ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 20:22:54) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+
+ArgumentError (wrong number of arguments (3 for 4)):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:4:in `generate'
+
+Rendered rescues/_trace (125.4ms)
+Rendered rescues/_request_and_response (1.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 20:23:36) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 164ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 20:23:45) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 218ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 20:25:29) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 217ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 20:26:17) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 3208ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 21:25:48) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+
+NoMethodError (undefined method `encrypt_pdf' for ActsAsFlyingSaucer::Xhtml2Pdf:Class):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:4:in `generate'
+
+Rendered rescues/_trace (125.1ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 21:31:25) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2881ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 21:33:27) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2898ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 21:37:21) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2642ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 21:38:57) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2571ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 21:39:25) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2811ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 21:40:08) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 3190ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 21:50:12) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2703ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 21:51:05) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2930ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 21:52:18) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2619ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 22:49:04) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2701ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 22:50:34) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 3141ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 22:51:39) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2902ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 22:52:57) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2752ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 22:53:38) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2560ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 22:53:53) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 3070ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 22:55:05) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2527ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-04-24 22:58:13) [GET]
+Rendering generate_pdf/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/generate_pdf]
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 22:58:22) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2750ms (View: 2, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:02:21) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2798ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:05:41) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 3346ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:06:27) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2811ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:07:26) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2866ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:08:46) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2598ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:09:21) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 3014ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:10:55) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2847ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:16:19) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2726ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:17:09) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2770ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:17:29) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2785ms (View: 2, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:18:07) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2500ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:18:32) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2769ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:19:36) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2633ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:37:05) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2607ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:38:34) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+
+ActionController::MissingFile (Cannot read file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:4:in `generate'
+
+Rendered rescues/_trace (121.3ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:38:59) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+
+ActionController::MissingFile (Cannot read file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:4:in `generate'
+
+Rendered rescues/_trace (53.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:40:35) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+
+ActionController::MissingFile (Cannot read file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:4:in `generate'
+
+Rendered rescues/_trace (156.8ms)
+Rendered rescues/_request_and_response (2.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:42:32) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+
+ActionController::MissingFile (Cannot read file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:4:in `generate'
+
+Rendered rescues/_trace (83.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:43:19) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+
+ActionController::MissingFile (Cannot read file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:4:in `generate'
+
+Rendered rescues/_trace (83.8ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:43:37) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+
+ActionController::MissingFile (Cannot read file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:4:in `generate'
+
+Rendered rescues/_trace (156.2ms)
+Rendered rescues/_request_and_response (2.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:45:24) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+
+ActionController::MissingFile (Cannot read file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:4:in `generate'
+
+Rendered rescues/_trace (89.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:46:34) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+
+ActionController::MissingFile (Cannot read file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:4:in `generate'
+
+Rendered rescues/_trace (155.8ms)
+Rendered rescues/_request_and_response (2.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:47:15) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 12239ms (View: 2, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:47:44) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 3421ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:48:41) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2828ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:49:57) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+
+ActionController::MissingFile (Cannot read file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf):
+  app/controllers/generate_pdf_controller.rb:6:in `generate'
+  app/controllers/generate_pdf_controller.rb:4:in `generate'
+
+Rendered rescues/_trace (157.0ms)
+Rendered rescues/_request_and_response (2.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:50:29) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 95969ms (View: 2, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:52:39) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 4359ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:52:49) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 79412ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:54:31) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 124414ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:57:25) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 19493ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:59:01) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 2550ms (View: 1, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-04-24 23:59:29) [GET]
+ - false - http://localhost:3000
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/2bd71d4239215b432e5ad74bb855dfa2.html
+Completed in 5124ms (View: 2, DB: 0) | 200 OK [http://localhost/generate_pdf/generate.pdf]
+Streaming file /tmp/2bd71d4239215b432e5ad74bb855dfa2a.pdf
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-05-14 14:59:09) [GET]
+Rendering generate_pdf/index
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-05-14 15:02:38) [GET]
+Rendering template within layouts/application
+Rendering generate_pdf/index
+
+ActionView::TemplateError (undefined method `generate_generate_pdf_path' for #<ActionView::Base:0xb6f203d0>) on line #25 of app/views/layouts/application.html.erb:
+22:         <div id="home_menubar">
+23:           <ul id="main_navigation">
+24:        
+25:               <li> <%= link_to "<span>Generate Pdf</span>", generate_generate_pdf_path(:format=>:psf),:class=>"main_navigation_link" %></li>
+26: 
+27:           </ul>    
+28:          
+
+    app/views/layouts/application.html.erb:25
+
+Rendered rescues/_trace (53.0ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-05-14 15:02:46) [GET]
+Rendering template within layouts/application
+Rendering generate_pdf/index
+
+ActionView::TemplateError (undefined method `generate_generate_pdfs_path' for #<ActionView::Base:0xb699fa8c>) on line #25 of app/views/layouts/application.html.erb:
+22:         <div id="home_menubar">
+23:           <ul id="main_navigation">
+24:        
+25:               <li> <%= link_to "<span>Generate Pdf</span>", generate_generate_pdfs_path(:format=>:psf),:class=>"main_navigation_link" %></li>
+26: 
+27:           </ul>    
+28:          
+
+    app/views/layouts/application.html.erb:25
+
+Rendered rescues/_trace (148.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-05-14 15:03:48) [GET]
+Rendering template within layouts/application
+Rendering generate_pdf/index
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:03:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/reset.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:03:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/grid.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:03:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/base.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:03:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:03:49) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:03:49) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:03:49) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jrails.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:03:49) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:03:49) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jrails.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GeneratePdfController#generate to psf (for 127.0.0.1 at 2010-05-14 15:03:59) [GET]
+Completed in 4ms (View: 1, DB: 0) | 406 Not Acceptable [http://localhost/generate?format=psf]
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-05-14 15:04:02) [GET]
+Rendering template within layouts/application
+Rendering generate_pdf/index
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:04:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/reset.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:04:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/grid.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:04:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/base.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:04:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:04:02) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:04:02) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:04:02) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jrails.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-05-14 15:04:03) [GET]
+ - false - http://localhost:3002
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/65a98807efe64de3e48023de2255e540.html
+Completed in 14640ms (View: 1, DB: 0) | 200 OK [http://localhost/generate?format=pdf]
+Streaming file /tmp/65a98807efe64de3e48023de2255e540a.pdf
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-05-14 15:23:03) [GET]
+ - false - http://localhost:3002
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/65a98807efe64de3e48023de2255e540.html
+Completed in 5417ms (View: 1, DB: 0) | 200 OK [http://localhost/generate?format=pdf]
+Streaming file /tmp/65a98807efe64de3e48023de2255e540a.pdf
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-05-14 15:23:59) [GET]
+Rendering template within layouts/application
+Rendering generate_pdf/index
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:23:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/reset.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:23:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/grid.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:23:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/base.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:23:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:23:59) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:23:59) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:23:59) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jrails.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-05-14 15:24:00) [GET]
+ - false - http://localhost:3002
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/853c44fe2a714124cf03fcd1f21a74fe.html
+Completed in 5427ms (View: 1, DB: 0) | 200 OK [http://localhost/generate?format=pdf]
+Streaming file /tmp/853c44fe2a714124cf03fcd1f21a74fea.pdf
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-05-14 15:27:15) [GET]
+Rendering template within layouts/application
+Rendering generate_pdf/index
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:27:15) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:27:16) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:27:16) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jrails.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:27:16) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jrails.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-05-14 15:27:18) [GET]
+ - false - http://localhost:3002
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/73fa725a91a0bb274f34eda1db474ec0.html
+Completed in 5865ms (View: 1, DB: 0) | 200 OK [http://localhost/generate?format=pdf]
+Streaming file /tmp/73fa725a91a0bb274f34eda1db474ec0a.pdf
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:28:25) [GET]
+
+SyntaxError (/home/amar/Desktop/test_flying/app/controllers/generate_pdf_controller.rb:8: syntax error, unexpected kEND, expecting '}'
+/home/amar/Desktop/test_flying/app/controllers/generate_pdf_controller.rb:15: syntax error, unexpected kEND, expecting '}'):
+  
+
+Rendered rescues/_trace (130.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-05-14 15:28:33) [GET]
+Rendering template within layouts/application
+Rendering generate_pdf/index
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:28:33) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:28:33) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:28:33) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jrails.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:28:33) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jrails.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-05-14 15:28:34) [GET]
+ - false - http://localhost:3002
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/73fa725a91a0bb274f34eda1db474ec0.html
+Completed in 3083ms (View: 1, DB: 0) | 200 OK [http://localhost/generate?format=pdf]
+Streaming file /tmp/73fa725a91a0bb274f34eda1db474ec0.pdf
+
+
+Processing GeneratePdfController#index (for 127.0.0.1 at 2010-05-14 15:29:40) [GET]
+Rendering template within layouts/application
+Rendering generate_pdf/index
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:29:40) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:29:40) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:29:40) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jrails.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-14 15:29:40) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jrails.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GeneratePdfController#generate to pdf (for 127.0.0.1 at 2010-05-14 15:29:41) [GET]
+ - false - http://localhost:3002
+Rendering generate_pdf/generate.pdf.erb
+html file: /tmp/f450f667d4da0214d880e91e4c2aafa6.html
+Completed in 3125ms (View: 1, DB: 0) | 200 OK [http://localhost/generate?format=pdf]
+Streaming file /tmp/f450f667d4da0214d880e91e4c2aafa6.pdf
